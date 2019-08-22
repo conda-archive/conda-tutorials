@@ -1,0 +1,22 @@
+name: conda_R
+version: 0.1
+
+install_in_dependency_order: True
+installer_filename: conda_R.exe
+initialize_by_default: True
+installer_type: exe  [win]
+license_file: ../EULA.txt
+
+channels:
+  - https://repo.anaconda.com/pkgs/main/
+  - https://repo.anaconda.com/pkgs/r/
+  - https://repo.anaconda.com/pkgs/msys2/
+  
+specs:
+  - python
+  - conda
+  - jupyter
+  - r-base
+  - r-essentials
+  - menuinst
+  - console_shortcut

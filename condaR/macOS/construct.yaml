@@ -1,0 +1,21 @@
+name: condaR
+version: 0.1
+
+install_in_dependency_order: True
+installer_filename: conda-R.pkg
+initialize_by_default: True
+installer_type: pkg  [osx]
+license_file: ../EULA.txt
+
+channels:
+  - https://repo.anaconda.com/pkgs/main/
+  - https://repo.anaconda.com/pkgs/r/
+
+specs:
+  - python
+  - conda
+  - jupyter
+  - r-base
+  - r-essentials
+
+
