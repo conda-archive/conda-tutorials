@@ -1,8 +1,8 @@
-# Linux
+# Windows
 
 ## Constructor File
 
-Windows requires additiona packages from msys2, note that this channel is added for the Windows installer.
+Windows requires additional packages from msys2, note that this channel is added for the Windows installer.
 ```
 channels:
   - https://repo.anaconda.com/pkgs/main/
